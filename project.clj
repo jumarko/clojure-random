@@ -8,6 +8,7 @@
                  [clj-http-lite "0.3.0"]
                  [com.stuartsierra/dependency "0.2.0"]
                  [fudje "0.9.5"]
-                 ]
+                 [org.clojure/core.async "0.2.374"]
+                 [uncomplicate/fluokitten "0.4.0"]]
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
